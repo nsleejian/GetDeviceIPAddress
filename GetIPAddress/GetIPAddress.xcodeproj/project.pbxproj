@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB59F8A81B9024A800D0F544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB59F8A71B9024A800D0F544 /* main.m */; };
+		FB59F8AB1B9024A800D0F544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB59F8AA1B9024A800D0F544 /* AppDelegate.m */; };
+		FB59F8AE1B9024A800D0F544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB59F8AD1B9024A800D0F544 /* ViewController.m */; };
+		FB59F8B11B9024A800D0F544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB59F8AF1B9024A800D0F544 /* Main.storyboard */; };
+		FB59F8B31B9024A800D0F544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB59F8B21B9024A800D0F544 /* Images.xcassets */; };
+		FB59F8B61B9024A800D0F544 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB59F8B41B9024A800D0F544 /* LaunchScreen.xib */; };
+		FB59F8C21B9024A800D0F544 /* GetIPAddressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB59F8C11B9024A800D0F544 /* GetIPAddressTests.m */; };
+		FB59F8CD1B90251E00D0F544 /* GetIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = FB59F8CC1B90251E00D0F544 /* GetIPAddress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB59F8BC1B9024A800D0F544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB59F89A1B9024A700D0F544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB59F8A11B9024A700D0F544;
+			remoteInfo = GetIPAddress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB59F8A21B9024A700D0F544 /* GetIPAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetIPAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB59F8A61B9024A800D0F544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB59F8A71B9024A800D0F544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB59F8A91B9024A800D0F544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB59F8AA1B9024A800D0F544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB59F8AC1B9024A800D0F544 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB59F8AD1B9024A800D0F544 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB59F8B01B9024A800D0F544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB59F8B21B9024A800D0F544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB59F8B51B9024A800D0F544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB59F8BB1B9024A800D0F544 /* GetIPAddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetIPAddressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB59F8C01B9024A800D0F544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB59F8C11B9024A800D0F544 /* GetIPAddressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetIPAddressTests.m; sourceTree = "<group>"; };
+		FB59F8CB1B90251E00D0F544 /* GetIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetIPAddress.h; sourceTree = "<group>"; };
+		FB59F8CC1B90251E00D0F544 /* GetIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetIPAddress.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB59F89F1B9024A700D0F544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB59F8B81B9024A800D0F544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB59F8991B9024A700D0F544 = {
+			isa = PBXGroup;
+			children = (
+				FB59F8A41B9024A700D0F544 /* GetIPAddress */,
+				FB59F8BE1B9024A800D0F544 /* GetIPAddressTests */,
+				FB59F8A31B9024A700D0F544 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB59F8A31B9024A700D0F544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB59F8A21B9024A700D0F544 /* GetIPAddress.app */,
+				FB59F8BB1B9024A800D0F544 /* GetIPAddressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB59F8A41B9024A700D0F544 /* GetIPAddress */ = {
+			isa = PBXGroup;
+			children = (
+				FB59F8A91B9024A800D0F544 /* AppDelegate.h */,
+				FB59F8AA1B9024A800D0F544 /* AppDelegate.m */,
+				FB59F8AC1B9024A800D0F544 /* ViewController.h */,
+				FB59F8AD1B9024A800D0F544 /* ViewController.m */,
+				FB59F8CB1B90251E00D0F544 /* GetIPAddress.h */,
+				FB59F8CC1B90251E00D0F544 /* GetIPAddress.m */,
+				FB59F8AF1B9024A800D0F544 /* Main.storyboard */,
+				FB59F8B21B9024A800D0F544 /* Images.xcassets */,
+				FB59F8B41B9024A800D0F544 /* LaunchScreen.xib */,
+				FB59F8A51B9024A800D0F544 /* Supporting Files */,
+			);
+			path = GetIPAddress;
+			sourceTree = "<group>";
+		};
+		FB59F8A51B9024A800D0F544 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB59F8A61B9024A800D0F544 /* Info.plist */,
+				FB59F8A71B9024A800D0F544 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB59F8BE1B9024A800D0F544 /* GetIPAddressTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB59F8C11B9024A800D0F544 /* GetIPAddressTests.m */,
+				FB59F8BF1B9024A800D0F544 /* Supporting Files */,
+			);
+			path = GetIPAddressTests;
+			sourceTree = "<group>";
+		};
+		FB59F8BF1B9024A800D0F544 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB59F8C01B9024A800D0F544 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB59F8A11B9024A700D0F544 /* GetIPAddress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB59F8C51B9024A800D0F544 /* Build configuration list for PBXNativeTarget "GetIPAddress" */;
+			buildPhases = (
+				FB59F89E1B9024A700D0F544 /* Sources */,
+				FB59F89F1B9024A700D0F544 /* Frameworks */,
+				FB59F8A01B9024A700D0F544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetIPAddress;
+			productName = GetIPAddress;
+			productReference = FB59F8A21B9024A700D0F544 /* GetIPAddress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB59F8BA1B9024A800D0F544 /* GetIPAddressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB59F8C81B9024A800D0F544 /* Build configuration list for PBXNativeTarget "GetIPAddressTests" */;
+			buildPhases = (
+				FB59F8B71B9024A800D0F544 /* Sources */,
+				FB59F8B81B9024A800D0F544 /* Frameworks */,
+				FB59F8B91B9024A800D0F544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB59F8BD1B9024A800D0F544 /* PBXTargetDependency */,
+			);
+			name = GetIPAddressTests;
+			productName = GetIPAddressTests;
+			productReference = FB59F8BB1B9024A800D0F544 /* GetIPAddressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB59F89A1B9024A700D0F544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Cocoa Lee";
+				TargetAttributes = {
+					FB59F8A11B9024A700D0F544 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FB59F8BA1B9024A800D0F544 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FB59F8A11B9024A700D0F544;
+					};
+				};
+			};
+			buildConfigurationList = FB59F89D1B9024A700D0F544 /* Build configuration list for PBXProject "GetIPAddress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB59F8991B9024A700D0F544;
+			productRefGroup = FB59F8A31B9024A700D0F544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB59F8A11B9024A700D0F544 /* GetIPAddress */,
+				FB59F8BA1B9024A800D0F544 /* GetIPAddressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB59F8A01B9024A700D0F544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB59F8B11B9024A800D0F544 /* Main.storyboard in Resources */,
+				FB59F8B61B9024A800D0F544 /* LaunchScreen.xib in Resources */,
+				FB59F8B31B9024A800D0F544 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB59F8B91B9024A800D0F544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB59F89E1B9024A700D0F544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB59F8CD1B90251E00D0F544 /* GetIPAddress.m in Sources */,
+				FB59F8AE1B9024A800D0F544 /* ViewController.m in Sources */,
+				FB59F8AB1B9024A800D0F544 /* AppDelegate.m in Sources */,
+				FB59F8A81B9024A800D0F544 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB59F8B71B9024A800D0F544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB59F8C21B9024A800D0F544 /* GetIPAddressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB59F8BD1B9024A800D0F544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB59F8A11B9024A700D0F544 /* GetIPAddress */;
+			targetProxy = FB59F8BC1B9024A800D0F544 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB59F8AF1B9024A800D0F544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB59F8B01B9024A800D0F544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB59F8B41B9024A800D0F544 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB59F8B51B9024A800D0F544 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB59F8C31B9024A800D0F544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB59F8C41B9024A800D0F544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB59F8C61B9024A800D0F544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetIPAddress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB59F8C71B9024A800D0F544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetIPAddress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB59F8C91B9024A800D0F544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GetIPAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetIPAddress.app/GetIPAddress";
+			};
+			name = Debug;
+		};
+		FB59F8CA1B9024A800D0F544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GetIPAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetIPAddress.app/GetIPAddress";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB59F89D1B9024A700D0F544 /* Build configuration list for PBXProject "GetIPAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB59F8C31B9024A800D0F544 /* Debug */,
+				FB59F8C41B9024A800D0F544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB59F8C51B9024A800D0F544 /* Build configuration list for PBXNativeTarget "GetIPAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB59F8C61B9024A800D0F544 /* Debug */,
+				FB59F8C71B9024A800D0F544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB59F8C81B9024A800D0F544 /* Build configuration list for PBXNativeTarget "GetIPAddressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB59F8C91B9024A800D0F544 /* Debug */,
+				FB59F8CA1B9024A800D0F544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB59F89A1B9024A700D0F544 /* Project object */;
+}
