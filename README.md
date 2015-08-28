@@ -12,6 +12,7 @@
     NSLog(@"all  :  %@", all);
 
 ```
+![Image](log.png)
 
 ###感谢
 https://stackoverflow.com/questions/7072989/iphone-ipad-osx-how-to-get-my-ip-address-programmatically
