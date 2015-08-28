@@ -18,9 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
-    NSLog(@"ipv4 :  %@",[GetIPAddress getIPAddress:true]);
-    NSLog(@"all  :  %@", [GetIPAddress getIPAddresses]);
+    NSString *ipv4 = [GetIPAddress getIPAddress:true];
+    NSLog(@"ipv4 :  %@",ipv4);
+    NSDictionary *all = [GetIPAddress getIPAddresses];
+    NSLog(@"all  :  %@", all);
 
    
     
