@@ -4,7 +4,8 @@
 使用方法
 
 ```
-   #import "ViewController.h"
+   #import "GetIPAddress.h"
+
    
     NSString *ipv4 = [GetIPAddress getIPAddress:true];
     NSLog(@"ipv4 :  %@",ipv4);
